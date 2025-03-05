@@ -16,7 +16,7 @@ class ChildDocument(BaseModel):
         documents, etc.).
     """
     metadata: dict = {}
-
+ 
 
 class Document(BaseModel):
     """Class for storing a piece of text and associated metadata."""
